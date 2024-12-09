@@ -1,0 +1,10 @@
+{
+  "name": "pnpm-ls-repro",
+  "devDependencies": {
+    "eslint": "^9.16.0"
+  },
+  "dependencies": {
+    "@babel/parser": "^7.26.3"
+  },
+  "packageManager": "pnpm@9.12.0"
+}
