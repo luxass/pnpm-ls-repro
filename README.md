@@ -6,7 +6,7 @@ There's an inconsistency in how `pnpm ls` behaves with the `--parseable` flag wh
 
 ### Expected Behavior
 - `pnpm ls --prod` correctly shows only production dependencies
-- Should not show development dependencies like `eslint` when using `--parseable` flag
+- Should not show dependencies of a development dependency like `eslint-visitor-keys` when using `--parseable` flag
 
 ### Actual Behavior
 - `pnpm ls --prod` works correctly
